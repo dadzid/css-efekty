@@ -35,3 +35,20 @@ img {
 p:nth-child(3) {
     clear: both;
 }
+#kopka {
+    height: 100px;
+    width: 100px;
+    float: none;
+    margin-bottom: 300px;
+    display: inline-block;
+    transition-property: all;
+    transition-duration: 5s;
+    transition-timing-function: linear;
+    transition-delay: 0.5s;
+}
+#kopka:hover {
+    height: 700px;
+    width: 700px;
+    
+}
+    
