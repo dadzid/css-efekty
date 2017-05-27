@@ -64,5 +64,8 @@ p:nth-child(3) {
     height: 50vh;
     background-color: aquamarine;
     background-image: url(https://static.wixstatic.com/media/76772b_7623a68cc6b74754908a9f91a4a3b208.png/v1/fill/w_241,h_206,al_c,usm_0.66_1.00_0.01/76772b_7623a68cc6b74754908a9f91a4a3b208.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
     
