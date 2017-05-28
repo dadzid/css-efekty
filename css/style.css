@@ -29,12 +29,13 @@ a {
 }
 
 img {
-    float:right;
+    float: right;
 }
 
 p:nth-child(3) {
     clear: both;
 }
+
 #kopka {
     height: 100px;
     width: 100px;
@@ -45,19 +46,17 @@ p:nth-child(3) {
     transition-duration: 5s;
     transition-timing-function: linear;
     transition-delay: 0.5s;
-    
     /* wersja skrocona 
     transition: all 5s linear 0.5s; 
     or
     transition: width 5s linear 0.5s, height 2s linear 0.5s;
     
     */
-    
 }
+
 #kopka:hover {
     height: 700px;
     width: 700px;
-    
 }
 
 #background {
@@ -68,4 +67,3 @@ p:nth-child(3) {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-    
